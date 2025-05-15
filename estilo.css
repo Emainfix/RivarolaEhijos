@@ -488,9 +488,14 @@ header label{
         font-size: 4rem;
     }
 
+    .main-info{
+        margin: auto;
+        padding-top: 44vh;
+    }
+
     .main-info h1{
         font-size: 2.5rem;
-        padding: 0.5rem 0;
+        
     }
 
     .nosotros{
@@ -606,7 +611,8 @@ header label{
     }
 
     .main-info{
-        margin-top: 200px;
+        margin: auto;
+        padding-top: 10rem;
     }
 
     .main-info h1{
