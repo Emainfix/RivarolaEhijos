@@ -93,10 +93,11 @@ header .navbar ul li ul li:hover{
     background-color: var(--color-primario);
 }
 
-header .navbar ul li ul li a:hover{
+header .navbar ul li ul li:hover a{
     color: #fff;
     opacity: 100%;
 }
+
 
 header .navbar ul li ul{
     position: absolute;
@@ -234,6 +235,10 @@ header .navbar ul li:hover > ul{
 
 .dots li.active{
     width: 30px;
+}
+
+.flecha{
+    font-size: 0.1rem;
 }
 
 .nosotros{
@@ -466,6 +471,10 @@ header label{
 
 @media(max-width:1050px){
 
+    .servicios-title{
+        margin: 0 2rem;
+    }
+
     .telefonos-contenedor{
         justify-content: center;
         max-width: 850px;
@@ -473,6 +482,10 @@ header label{
 
     header .navbar-contenedor{
         padding: 0 20px;
+    }
+
+    .buttons button{
+        font-size: 4rem;
     }
 
     .main-info h1{
@@ -623,6 +636,14 @@ header label{
         z-index: 100;
     }
 
+    .buttons button{
+        font-size: 3rem;
+    }
+
+    .servicios-title{
+        margin: 0 2rem;
+    }
+
     .nosotros{
         display: flex;
         flex-direction: column;
@@ -663,6 +684,8 @@ header label{
         font-size: 1rem;
         cursor: pointer;
     }
+
+
 
     .servicios-title h1{
         text-align: left;
